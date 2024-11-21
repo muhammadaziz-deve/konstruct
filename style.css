@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-image: url(img/bg.png);
+  width: auto;
+  height: 769px;
+  color: #fff;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.header-h3 {
+  display: flex;
+  align-items: center;
+}
+.header-h3 img {
+  width: 8.36px;
+  height: 20.91px;
+}
+.header-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-h1 p {
+  width: 386px;
+  height: 22px;
+}
+.container {
+  max-width: 940px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.konstruct {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.konstruct-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.konstruct-links li:hover {
+  color: #ffff;
+  background-color: black;
+}
+.konstruct-links {
+  display: flex;
+  gap: 38px;
+}
+.os-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 92px;
+}
+.os-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.os-texts h3 {
+  width: 405.08px;
+  height: 81px;
+  top: 116px;
+  gap: 0px;
+  opacity: 0px;
+}
+.os-texts p {
+  width: 405.08px;
+  height: 115px;
+  top: 227px;
+  gap: 0px;
+  opacity: 0px;
+}
+.os-img {
+  display: flex;
+  gap: 10px;
+  color: #fff;
+}
+.photo1 {
+  background-image: url(img/Bitmap.png);
+  width: 140px;
+  height: 225px;
+}
+.photo2 {
+  background-image: url(./img/Bitmap-1.png);
+  width: 140px;
+  height: 225px;
+}
+.photo3 {
+  background-image: url(./img/Bitmap-2.png);
+  width: 140px;
+  height: 225px;
+}
+.SERVICES-links {
+  margin-top: 118px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SERVICES-links h3 {
+  margin-right: 151px;
+}
+.SERVICES-links p {
+  width: 405.4px;
+  height: 38px;
+}
+.SERVICES-links button {
+  padding: 11px 29px;
+  background-color: #00a4e5;
+  border: none;
+  color: #fff;
+}
+.servis-2-cards {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-1 {
+  width: 205px;
+  height: 330px;
+  gap: 25px;
+}
+.card-1 h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  width: 250px;
+  height: 48px;
+  top: 138px;
+  left: 23px;
+  gap: 0px;
+  opacity: 0px;
+}
+.card-1 p {
+  margin-bottom: 25px;
+  width: 250px;
+  height: 92px;
+  top: 199px;
+  left: 23px;
+  gap: 0px;
+  opacity: 0px;
+}
+.tour img {
+  width: 1340px;
+}
+.footer {
+  background-color: #171819;
+}
+.footer-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+.footer-cards h1 {
+  color: #fff;
+}
+.i-b{
+  display: flex;
+}
+.footer-cards input {
+  padding: 11px 16px 10px 68px;
+  border: none;
+
+}
+
+.footer-cards button{
+    padding: 11px 50px;
+    background-color: #00A4E5;
+    border: none;
+}
